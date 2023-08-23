@@ -1,0 +1,84 @@
+.select-container {
+  display: inline-block;
+  position: relative;
+}
+
+select {
+  appearance: none;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  width: 200px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+select option:checked {
+  background-color: #007bff;
+  color: white;
+}
+
+select option {
+  background-color: white;
+  color: black;
+}
+
+.delete {
+  background-color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-weight: 600;
+}
+.mapping-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.add {
+  background-color: white;
+  color: blue;
+  border: 1px blue dotted;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+}
+.import {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.import button {
+  border: none;
+  background-color: teal;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
